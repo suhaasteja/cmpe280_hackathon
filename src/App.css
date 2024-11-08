@@ -1,0 +1,37 @@
+#logo{
+    width: 100px;
+    height: auto;
+    object-fit: contain;
+}
+
+#header{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+#accordion-list-container{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    list-style: none;
+}
+
+#accordion-list-container button{
+    text-align: left;
+    cursor: grab;
+    border: 0.1px dashed;
+    border-radius: 10px;
+    opacity: 0.85;
+}
+
+#accordion-list-container button:hover{
+    opacity: 1;
+}
+
+
+.rcw-conversation-container .rcw-header, .rcw-launcher {
+    background-color: #597176 !important;
+}
